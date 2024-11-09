@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="main-container">
+        <div class="peer_container">
+          <h1>Peer A</h1>
+          <div class="chat_message"></div>
+          <div class="chat_box_conatiner">
+            <input
+              type="text"
+              placeholder="Type your message here"
+              class="chat_box"
+            />
+            <button>Send</button>
+          </div>
+        </div>
+        <div class="peer_container">
+          <h1>Peer B</h1>
+          <div class="chat_message"></div>
+          <div class="chat_box_conatiner">
+            <input
+              type="text"
+              placeholder="Type your message here"
+              class="chat_box"
+            />
+            <button>Send</button>
+          </div>
+        </div>
+      </div>
+      <button id="initiate_connection_btn">Connect</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
